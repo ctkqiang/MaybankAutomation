@@ -25,7 +25,9 @@
 
 ### 示例演示
 以下是示例演示的截图，展示了工具的界面和功能：
-<img src="./assets/demo.jpeg" >
+[![演示](./assets/demo.jpeg)](https://www.kuaishou.com/short-video/3x3u976d8treg4y?fid=3357252645&cc=more&followRefer=151&shareMethod=CARD&docId=10&kpn=NEBULA&subBiz=BROWSE_SLIDE_PHOTO&photoId=3x3u976d8treg4y&shareId=17579112419427&shareToken=X-47LjsQLrmWh1aw&shareResourceType=PHOTO_SELF&userId=3xwu9nh5xtk4a7a&shareType=2&et=1_i%252F0_unknown0&shareMode=APP&originShareId=17579112419427&appType=2&inviteCode=zx26729&shareObjectId=5250352848875484377&shareUrlOpened=0&timestamp=1692111825664&sharePullHoldout=1&utm_source=app_share&utm_medium=app_share&utm_campaign=app_share&location=app_share)
+
+
 
 ### 配置 .env 文件
 
