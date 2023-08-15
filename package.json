@@ -1,0 +1,25 @@
+{
+  "name": "maybankautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --no-deprecation --no-warnings ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "s"
+  },
+  "keywords": [
+    "maybank",
+    "automation"
+  ],
+  "author": "钟智强",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mocha": "^10.2.0",
+    "puppeteer": "^21.0.3"
+  }
+}
