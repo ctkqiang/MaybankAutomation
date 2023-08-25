@@ -17,7 +17,9 @@ const main = async () => {
     const 模式 = process.argv[2];
 
     // Navigate to the Maybank2U website
-    const 马来亚银行 = await 页.goto(url);
+    const 马来亚银行 = await 页.goto(url, { timeout : 0});
+
+    await 页.setDefaultNavigationTimeout(0);
 
     if (马来亚银行.status() == 200) {
 
@@ -53,7 +55,7 @@ const main = async () => {
                 console.log("********************************");
                 console.log(`帐户类型: ${account_name}`);
                 console.log(`账号号码: ${account_number}`);
-                console.log(`账户结余: ${balance}马币 (${cny}人民币)`);
+                console.log(`账户结余: ${balance}马币`);
                 console.log(`银行出纳员: ${message(balance)}`);
                 console.log("********************************");
                 console.log("\n\n");
@@ -62,7 +64,7 @@ const main = async () => {
                 if(浏览器) await 浏览器.close();
             });
 
-        }, 5000);
+        }, 10000);
     }
 };
 
