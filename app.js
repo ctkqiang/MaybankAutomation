@@ -65,6 +65,8 @@ const main = async () => {
             });
 
         }, 10000);
+    } else {
+        console.log("eh");
     }
 };
 
